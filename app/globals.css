@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --font-albert: "Albert Sans", sans-serif;
+  --font-montserrat: "Montserrat Alternates", sans-serif;
+
+  --color-gray: #606060;
+  --color-almost-black: #1E1E1E;
+  --color-light-gray: #DDDDDD;
+
+  --text-fourty: 2.5rem;
+}
+
+
