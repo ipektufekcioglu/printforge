@@ -1,9 +1,6 @@
 import "./globals.css";
-import Image from "next/image"
-import Link from "next/link"
-import PrintForgeMobileLogo from "@/public/printforge-logo-mobile.png"
-import PrintForgeDesktopLogo from "@/public/printforge-logo-desktop.png"
 import type {RootLayoutProps} from "@/app/types"
+import Navbar from "@/app/components/Navbar"
 
 export default function RootLayout({children}: RootLayoutProps) {
   return (
@@ -15,16 +12,7 @@ export default function RootLayout({children}: RootLayoutProps) {
       </head>
       <body>
         <header>
-          <nav className="flex justify-between items-center font-albert text-sm px-4 py-2 text-gray font-medium md:px-8">
-            <Link href="/">
-              <Image className="md:hidden" alt="Printforge mobile logo" src={PrintForgeMobileLogo}/>
-              <Image className="hidden md:block" alt="Printforge desktop logo" src={PrintForgeDesktopLogo}/>
-            </Link>
-            <ul className="flex gap-4">
-                <li><Link href="/3d-models">3D MODELS</Link></li>
-                <li><Link href="/about">ABOUT</Link></li>
-            </ul>
-          </nav>
+          <Navbar/>
         </header>
         {children}
       </body>

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/ipektufekcioglu/Documents/GitHub/printforge/app/3d-models/categories/%5BcategoryName%5D/page.tsx"],"sourcesContent":["import type {CategoryPageProps} from \"@/app/types\"\nimport { getCategoryBySlug } from \"@/app/lib/categories\"\n\nexport default async function CategoryPage({params}: CategoryPageProps) {\n  const {categoryName} = await params\n  const category = getCategoryBySlug(categoryName)\n  return <p>{category.displayName}</p>\n}"],"names":[],"mappings":";;;;;AACA;;;AAEe,eAAe,aAAa,EAAC,MAAM,EAAoB;IACpE,MAAM,EAAC,YAAY,EAAC,GAAG,MAAM;IAC7B,MAAM,WAAW,IAAA,6IAAiB,EAAC;IACnC,qBAAO,8OAAC;kBAAG,SAAS,WAAW;;;;;;AACjC","debugId":null}}]
+}

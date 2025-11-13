@@ -36,6 +36,24 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 }
 
 
+// Validate ../../../app/3d-models/[id]/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/3d-models/[id]">> = Specific
+  const handler = {} as typeof import("../../../app/3d-models/[id]/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../../app/3d-models/categories/[categoryName]/page.tsx
+{
+  type __IsExpected<Specific extends AppPageConfig<"/3d-models/categories/[categoryName]">> = Specific
+  const handler = {} as typeof import("../../../app/3d-models/categories/[categoryName]/page.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../../app/3d-models/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/3d-models">> = Specific
@@ -68,6 +86,15 @@ type LayoutConfig<Route extends LayoutRoutes = LayoutRoutes> = {
 
 
 
+
+// Validate ../../../app/3d-models/layout.tsx
+{
+  type __IsExpected<Specific extends LayoutConfig<"/3d-models">> = Specific
+  const handler = {} as typeof import("../../../app/3d-models/layout.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
 
 // Validate ../../../app/layout.tsx
 {
