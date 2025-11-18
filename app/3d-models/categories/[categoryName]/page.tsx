@@ -1,8 +1,11 @@
 import type {CategoryPageProps} from "@/app/types"
 import { getCategoryBySlug } from "@/app/lib/categories"
+import { getModels } from "@/app/lib/models"
+import ModelGrid from "@/app/components/ModelGrid"
 
 export default async function CategoryPage({params}: CategoryPageProps) {
   const {categoryName} = await params
   const category = getCategoryBySlug(categoryName)
-  return <p>{category.displayName}</p>
+  const models = await getModels({category: categoryName})
+  return <ModelGrid models={models} title={category.displayName}/>
 }

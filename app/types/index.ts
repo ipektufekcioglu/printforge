@@ -37,5 +37,10 @@ export type ModelCardProps = {
 
 export type NavLinkProps = {
   href: string,
+  isActive: boolean,
   children: string
+}
+
+export type GetModelsParams = {
+  category?: string
 }

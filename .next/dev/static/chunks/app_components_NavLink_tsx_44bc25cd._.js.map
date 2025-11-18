@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/ipektufekcioglu/Documents/GitHub/printforge/app/components/NavLink.tsx"],"sourcesContent":["\"use client\"\n\nimport { usePathname } from \"next/navigation\"\nimport Link from \"next/link\"\nimport type { NavLinkProps } from \"../types\"\n\nexport default function NavLink({href, children}: NavLinkProps) {\n    const path = usePathname()\n    return (\n        <Link href={href}\n              className={`block w-fit font-albert text-sm \n              font-medium uppercase cursor-pointer hover:text-orange ${path === href ? \"text-orange border-b border-orange\" : \"text-gray\"}`}>\n              {children}\n        </Link>\n    )\n}"],"names":[],"mappings":";;;;;AAEA;AACA;;;AAHA;;;AAMe,SAAS,QAAQ,EAAC,IAAI,EAAE,QAAQ,EAAe;;IAC1D,MAAM,OAAO,IAAA,oJAAW;IACxB,qBACI,6LAAC,0KAAI;QAAC,MAAM;QACN,WAAW,CAAC;qEAC2C,EAAE,SAAS,OAAO,uCAAuC,aAAa;kBAC5H;;;;;;AAGf;GATwB;;QACP,oJAAW;;;KADJ","debugId":null}}]
+}

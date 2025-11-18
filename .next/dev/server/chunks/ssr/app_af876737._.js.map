@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/ipektufekcioglu/Documents/GitHub/printforge/app/3d-models/layout.tsx"],"sourcesContent":["import CategoriesNav from \"../components/CategoriesNav\";\n\nexport default function ModelsLayout({children}: {children: React.ReactNode}) {\n\n  return (\n    <div className=\"relative flex flex-col md:flex-row md:gap-4\">\n        <CategoriesNav />\n        <main className=\"flex-1 p-4 md:ml-64\">{children}</main>\n    </div>\n    )\n}"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS,aAAa,EAAC,QAAQ,EAA8B;IAE1E,qBACE,8OAAC;QAAI,WAAU;;0BACX,8OAAC,8IAAa;;;;;0BACd,8OAAC;gBAAK,WAAU;0BAAuB;;;;;;;;;;;;AAG/C","debugId":null}}]
+}

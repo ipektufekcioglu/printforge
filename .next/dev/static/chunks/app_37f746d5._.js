@@ -1,0 +1,130 @@
+(globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push([typeof document === "object" ? document.currentScript : undefined,
+"[project]/app/data/categories.json (json)", ((__turbopack_context__) => {
+
+__turbopack_context__.v([{"displayName":"3D Printer","slug":"3d-printer"},{"displayName":"Art","slug":"art"},{"displayName":"Education","slug":"education"},{"displayName":"Fashion","slug":"fashion"},{"displayName":"Hobby & DIY","slug":"hobby-diy"},{"displayName":"Household","slug":"household"},{"displayName":"Miniatures","slug":"miniatures"},{"displayName":"Props & Cosplay","slug":"props-cosplay"},{"displayName":"Tools","slug":"tools"},{"displayName":"Toys & Games","slug":"toys-games"}]);}),
+"[project]/app/lib/categories.ts [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "getAllCategories",
+    ()=>getAllCategories,
+    "getCategoryBySlug",
+    ()=>getCategoryBySlug,
+    "getDisplayNameFromSlug",
+    ()=>getDisplayNameFromSlug
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$data$2f$categories$2e$json__$28$json$29$__ = __turbopack_context__.i("[project]/app/data/categories.json (json)");
+;
+function getAllCategories() {
+    return __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$data$2f$categories$2e$json__$28$json$29$__["default"];
+}
+function getCategoryBySlug(slug) {
+    const category = __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$data$2f$categories$2e$json__$28$json$29$__["default"].find((c)=>c.slug === slug);
+    if (!category) {
+        throw new Error(`Category with slug ${slug} not found`);
+    }
+    return category;
+}
+function getDisplayNameFromSlug(slug) {
+    const model = getCategoryBySlug(slug);
+    return model.displayName;
+}
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/app/components/CategoriesNav.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>CategoriesNav
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/navigation.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$lib$2f$categories$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/lib/categories.ts [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$NavLink$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/components/NavLink.tsx [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+"use client";
+;
+;
+;
+function CategoriesNav() {
+    _s();
+    const path = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"])();
+    const allCategories = (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$lib$2f$categories$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getAllCategories"])();
+    const categoryElements = allCategories.map((c)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$NavLink$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+            href: `/3d-models/categories/${c.slug}`,
+            isActive: path === `/3d-models/categories/${c.slug}`,
+            children: c.displayName
+        }, c.slug, false, {
+            fileName: "[project]/app/components/CategoriesNav.tsx",
+            lineNumber: 11,
+            columnNumber: 64
+        }, this));
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
+        className: "sticky top-0 z-10 w-full bg-white border-b border-gray-200 md:fixed md:w-64 md:top-1/2 md:-translate-y-1/2 md:border-none",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "relative",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+                    className: "w-full overflow-x-auto md:overflow-visible scrollbar-hide md:px-6",
+                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                        className: "flex px-4 py-3 space-x-4 whitespace-nowrap md:flex-col md:p-0 md:space-x-0 md:space-y-3",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$NavLink$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                href: `/3d-models`,
+                                isActive: path === `/3d-models`,
+                                children: "All"
+                            }, "all", false, {
+                                fileName: "[project]/app/components/CategoriesNav.tsx",
+                                lineNumber: 17,
+                                columnNumber: 25
+                            }, this),
+                            categoryElements
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/components/CategoriesNav.tsx",
+                        lineNumber: 16,
+                        columnNumber: 21
+                    }, this)
+                }, void 0, false, {
+                    fileName: "[project]/app/components/CategoriesNav.tsx",
+                    lineNumber: 15,
+                    columnNumber: 17
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "absolute top-0 right-0 w-12 h-full pointer-events-none bg-gradient-to-l from-white to-transparent md:hidden"
+                }, void 0, false, {
+                    fileName: "[project]/app/components/CategoriesNav.tsx",
+                    lineNumber: 21,
+                    columnNumber: 17
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/app/components/CategoriesNav.tsx",
+            lineNumber: 14,
+            columnNumber: 13
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/app/components/CategoriesNav.tsx",
+        lineNumber: 13,
+        columnNumber: 9
+    }, this);
+}
+_s(CategoriesNav, "kx72sda92+XlSh1QiZvq/YVQxpY=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["usePathname"]
+    ];
+});
+_c = CategoriesNav;
+var _c;
+__turbopack_context__.k.register(_c, "CategoriesNav");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+]);
+
+//# sourceMappingURL=app_37f746d5._.js.map

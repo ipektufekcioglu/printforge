@@ -1,72 +1,162 @@
-[00:00:02.241] Server  LOG      ✓ Ready in 2s
-[00:00:15.223] Server  LOG     [{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...}]
-[00:00:15.224] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:00:15.588] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:15.785] Browser WARN    Image with src "/_next/static/media/heart-icon.98014e5c.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:27.935] Server  LOG     [{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...},{...}]
-[00:00:27.936] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:00:28.680] Browser WARN    Image with src "/_next/static/media/heart-icon.98014e5c.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:01:05.939] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:01:17.346] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:01:37.111] Browser WARN    Image with src "/_next/static/media/hero-image.8bbf4b70.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:00:00.670] Server  LOG      ✓ Ready in 518ms
+[00:00:02.368] Server  LOG     true
+[00:00:02.574] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:02.686] Browser LOG     true
+[00:00:02.686] Browser LOG     true
+[00:00:02.686] Browser WARN    Image with src "/_next/static/media/printforge-logo-desktop.f1c18b80.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:01:51.703] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:02:09.090] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:02:38.739] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:02:54.264] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:03:14.367] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:04:11.804] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:04:28.563] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:05:15.399] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:05:25.222] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:06:16.444] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:07:05.802] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:07:11.070] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:07:36.218] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:11:12.615] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:11:30.666] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:11:30.968] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:11:31.169] Browser WARN    Image with src "/_next/static/media/heart-icon.98014e5c.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:12:21.701] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:12:39.913] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:12:52.281] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:13:11.131] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:13:22.191] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:13:22.466] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:13:22.657] Browser WARN    Image with src "/_next/static/media/heart-icon.98014e5c.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:13:48.973] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:15:58.889] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:15:59.079] Browser WARN    Image with src "/_next/static/media/hero-image.8bbf4b70.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:00:43.811] Browser LOG     true
+[00:00:43.811] Browser LOG     true
+[00:04:14.796] Server  LOG     true
+[00:04:14.970] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:04:15.704] Browser LOG     true
+[00:04:15.704] Browser LOG     true
+[00:04:15.704] Browser LOG     true
+[00:04:15.704] Browser LOG     true
+[00:04:15.704] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `ModelsLayout`.
+[00:05:48.589] Server  LOG     true
+[00:05:49.702] Browser LOG     true
+[00:05:49.702] Browser LOG     true
+[00:05:50.576] Browser WARN    Image with src "/_next/static/media/printforge-logo-mobile.b9eb14f2.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
-[00:40:25.310] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:41:09.418] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:41:24.948] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:42:36.159] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:43:36.907] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:44:55.793] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:46:03.645] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:46:08.774] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:46:09.096] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:46:09.291] Browser WARN    Image with src "/_next/static/media/heart-icon.98014e5c.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:46:21.123] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:46:54.660] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:48:29.949] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:49:30.284] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:50:12.580] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:52:04.851] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:54:00.158] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:54:39.103] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:54:44.126] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:54:44.419] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:54:44.611] Browser WARN    Image with src "/_next/static/media/heart-icon.98014e5c.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:54:59.365] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:55:31.579] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:57:23.976] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:57:24.230] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:57:24.409] Browser WARN    Image with src "/_next/static/media/heart-icon.98014e5c.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:57:51.792] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:57:51.830] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:58:13.886] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:58:13.929] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:59:30.009] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
-[00:59:30.066] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:05:53.329] Server  LOG     true
+[00:05:53.683] Browser LOG     true
+[00:05:53.683] Browser LOG     true
+[00:05:53.683] Browser WARN    Image with src "/_next/static/media/printforge-logo-mobile.b9eb14f2.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:05:54.785] Browser LOG     true
+[00:05:54.785] Browser LOG     true
+[00:05:55.835] Browser LOG     true
+[00:05:55.835] Browser LOG     true
+[00:05:56.703] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:05:56.920] Browser LOG     true
+[00:05:56.920] Browser LOG     true
+[00:05:57.038] Browser WARN    Image with src "/_next/static/media/heart-icon.98014e5c.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:05:58.639] Browser LOG     true
+[00:05:58.639] Browser LOG     true
+[00:06:00.306] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:06:00.476] Browser LOG     true
+[00:06:00.477] Browser LOG     true
+[00:07:50.600] Browser LOG     true
+[00:07:50.600] Browser LOG     true
+[00:07:57.207] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:07:57.377] Browser LOG     true
+[00:07:57.377] Browser LOG     true
+[00:08:05.740] Browser LOG     true
+[00:08:05.740] Browser LOG     true
+[00:09:14.232] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:09:14.398] Browser LOG     true
+[00:09:14.398] Browser LOG     true
+[00:09:17.051] Browser LOG     true
+[00:09:17.051] Browser LOG     true
+[00:12:07.107] Server  LOG      ✓ Compiled in 13ms
+[00:12:07.185] Browser LOG     true
+[00:12:07.185] Browser LOG     true
+[00:12:15.798] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:12:15.960] Browser LOG     true
+[00:12:15.960] Browser LOG     true
+[00:12:19.327] Browser LOG     true
+[00:12:19.327] Browser LOG     true
+[00:12:26.805] Server  LOG      ✓ Compiled in 15ms
+[00:12:26.880] Browser LOG     true
+[00:12:26.880] Browser LOG     true
+[00:12:42.009] Server  LOG     true
+[00:12:42.309] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:42.444] Browser LOG     true
+[00:12:42.444] Browser LOG     true
+[00:12:42.444] Browser WARN    Image with src "/_next/static/media/printforge-logo-desktop.f1c18b80.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:12:47.177] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:12:47.343] Browser LOG     true
+[00:12:47.343] Browser LOG     true
+[00:12:47.462] Browser WARN    Image with src "/_next/static/media/heart-icon.98014e5c.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:13:20.132] Browser LOG     true
+[00:13:20.132] Browser LOG     true
+[00:13:23.099] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:13:23.292] Browser LOG     true
+[00:13:23.292] Browser LOG     true
+[00:13:25.230] Browser LOG     true
+[00:13:25.230] Browser LOG     true
+[00:13:34.307] Browser LOG     true
+[00:13:34.307] Browser LOG     true
+[00:13:36.334] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:13:36.507] Browser LOG     true
+[00:13:36.508] Browser LOG     true
+[00:14:07.523] Browser LOG     true
+[00:14:07.523] Browser LOG     true
+[00:14:10.377] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:14:10.537] Browser LOG     true
+[00:14:10.538] Browser LOG     true
+[00:14:13.008] Browser LOG     true
+[00:14:13.008] Browser LOG     true
+[00:14:14.759] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[00:14:14.929] Browser LOG     true
+[00:14:14.929] Browser LOG     true
+[00:14:41.490] Browser LOG     true
+[00:14:41.490] Browser LOG     true
+[00:15:46.758] Server  LOG      ✓ Compiled in 23ms
+[00:15:47.710] Browser LOG     true
+[00:15:47.710] Browser LOG     true
+[00:15:50.578] Browser LOG     true
+[00:15:50.578] Browser LOG     true
+[00:15:59.039] Server  LOG      ✓ Compiled in 14ms
+[00:15:59.114] Browser LOG     true
+[00:15:59.114] Browser LOG     true
+[00:16:05.571] Server  LOG     true
+[00:16:05.825] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:05.966] Browser LOG     true
+[00:16:05.966] Browser LOG     true
+[00:16:05.966] Browser WARN    Image with src "/_next/static/media/printforge-logo-desktop.f1c18b80.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:16:11.145] Server  LOG      ✓ Compiled in 15ms
+[00:16:11.223] Browser LOG     true
+[00:16:11.223] Browser LOG     true
+[24:13:18.708] Browser ERROR   ./app/3d-models/page.tsx:1:1
+Export getAllModels doesn't exist in target module
+> 1 | import { getAllModels } from "@/app/lib/models"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ModelGrid from "../components/ModelGrid"
+  3 |
+  4 |
+
+The export getAllModels was not found in module [project]/app/lib/models.ts [app-rsc] (ecmascript).
+Did you mean to import getModels?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[24:13:52.707] Browser ERROR   ./app/3d-models/page.tsx:1:1
+Export getAllModels doesn't exist in target module
+> 1 | import { getAllModels } from "@/app/lib/models"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import ModelGrid from "../components/ModelGrid"
+  3 |
+  4 |
+
+The export getAllModels was not found in module [project]/app/lib/models.ts [app-rsc] (ecmascript).
+Did you mean to import getModels?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+[24:13:55.876] Server  LOG      ✓ Compiled in 18ms
+[24:13:56.709] Browser LOG     true
+[24:13:56.709] Browser LOG     true
+[24:14:29.070] Server  LOG      ✓ Compiled in 13ms
+[24:14:29.707] Browser LOG     true
+[24:14:29.708] Browser LOG     true
+[24:27:24.928] Server  LOG      ✓ Compiled in 13ms
+[24:27:25.708] Browser LOG     true
+[24:27:25.708] Browser LOG     true
+[24:27:49.042] Server  LOG      ✓ Compiled in 25ms
+[24:27:49.712] Browser LOG     true
+[24:27:49.712] Browser LOG     true
+[26:07:19.012] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[26:07:20.074] Browser LOG     true
+[26:07:20.074] Browser LOG     true
+[26:07:20.074] Browser WARN    Image with src "/_next/static/media/heart-icon.98014e5c.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[26:07:21.105] Browser WARN    Image with src "/_next/static/media/hero-image.8bbf4b70.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[26:07:24.733] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[26:07:24.854] Browser LOG     true
+[26:07:24.854] Browser LOG     true
+[26:07:28.014] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[26:07:28.132] Browser LOG     true
+[26:07:28.132] Browser LOG     true
+[75:29:41.597] Server  LOG     false
