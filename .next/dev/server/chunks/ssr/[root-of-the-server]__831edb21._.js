@@ -20,15 +20,21 @@ __turbopack_context__.v([{"id":1,"name":"Articulated Dragon","description":"A de
 "use strict";
 
 __turbopack_context__.s([
-    "getAllModels",
-    ()=>getAllModels,
     "getModelById",
-    ()=>getModelById
+    ()=>getModelById,
+    "getModels",
+    ()=>getModels
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$data$2f$models$2e$json__$28$json$29$__ = __turbopack_context__.i("[project]/app/data/models.json (json)");
 ;
-async function getAllModels() {
-    return __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$data$2f$models$2e$json__$28$json$29$__["default"];
+async function getModels({ category } = {}) {
+    let filteredModels = [
+        ...__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$data$2f$models$2e$json__$28$json$29$__["default"]
+    ];
+    if (category) {
+        filteredModels = filteredModels.filter((model)=>model.category === category);
+    }
+    return filteredModels;
 }
 async function getModelById(id) {
     const foundModel = __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$data$2f$models$2e$json__$28$json$29$__["default"].find((model)=>model.id.toString() === id.toString());
@@ -248,19 +254,45 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$lib$2f$models$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/lib/models.ts [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$ModelGrid$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/components/ModelGrid.tsx [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$form$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/form.js [app-rsc] (ecmascript)");
 ;
 ;
 ;
-async function ModelsPage() {
-    const models = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$lib$2f$models$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getAllModels"])();
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$ModelGrid$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-        title: "3D Models",
-        models: models
-    }, void 0, false, {
-        fileName: "[project]/app/3d-models/page.tsx",
-        lineNumber: 7,
-        columnNumber: 12
-    }, this);
+;
+async function ModelsPage({ searchParams }) {
+    const models = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$lib$2f$models$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["getModels"])();
+    const { query } = await searchParams;
+    const filteredModels = query ? models.filter((m)=>m.name.toLowerCase().includes(query.toLowerCase()) || m.description.toLowerCase().includes(query.toLowerCase())) : models;
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$form$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                action: "/3d-models",
+                className: "w-full md:px-0 md:max-w-x",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                    name: "query",
+                    placeholder: "Search for a model",
+                    defaultValue: query ? query : "",
+                    className: "border border-gray rounded-[20] text-sm py-3 pl-5 pr-5 md:text-base"
+                }, void 0, false, {
+                    fileName: "[project]/app/3d-models/page.tsx",
+                    lineNumber: 16,
+                    columnNumber: 21
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/app/3d-models/page.tsx",
+                lineNumber: 15,
+                columnNumber: 17
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$ModelGrid$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                title: "3D Models",
+                models: filteredModels
+            }, void 0, false, {
+                fileName: "[project]/app/3d-models/page.tsx",
+                lineNumber: 19,
+                columnNumber: 17
+            }, this)
+        ]
+    }, void 0, true);
 }
 }),
 "[project]/app/3d-models/page.tsx [app-rsc] (ecmascript, Next.js Server Component)", ((__turbopack_context__) => {

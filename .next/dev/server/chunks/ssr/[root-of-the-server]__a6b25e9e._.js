@@ -20,15 +20,21 @@ __turbopack_context__.v([{"id":1,"name":"Articulated Dragon","description":"A de
 "use strict";
 
 __turbopack_context__.s([
-    "getAllModels",
-    ()=>getAllModels,
     "getModelById",
-    ()=>getModelById
+    ()=>getModelById,
+    "getModels",
+    ()=>getModels
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$data$2f$models$2e$json__$28$json$29$__ = __turbopack_context__.i("[project]/app/data/models.json (json)");
 ;
-async function getAllModels() {
-    return __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$data$2f$models$2e$json__$28$json$29$__["default"];
+async function getModels({ category } = {}) {
+    let filteredModels = [
+        ...__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$data$2f$models$2e$json__$28$json$29$__["default"]
+    ];
+    if (category) {
+        filteredModels = filteredModels.filter((model)=>model.category === category);
+    }
+    return filteredModels;
 }
 async function getModelById(id) {
     const foundModel = __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$data$2f$models$2e$json__$28$json$29$__["default"].find((model)=>model.id.toString() === id.toString());

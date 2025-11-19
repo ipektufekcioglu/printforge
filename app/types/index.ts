@@ -44,3 +44,9 @@ export type NavLinkProps = {
 export type GetModelsParams = {
   category?: string
 }
+
+export type ModelsPageProps= {
+  searchParams: {
+    query?: string
+  }
+}

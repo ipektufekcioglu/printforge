@@ -160,3 +160,166 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
 [26:07:28.132] Browser LOG     true
 [26:07:28.132] Browser LOG     true
 [75:29:41.597] Server  LOG     false
+[101:37:42.789] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[101:37:42.847] Server  LOG     true
+[101:37:43.290] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[101:37:43.434] Browser LOG     true
+[101:37:43.434] Browser LOG     true
+[101:37:43.604] Browser WARN    Image with src "/_next/static/media/heart-icon.98014e5c.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[127:13:48.645] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:13:48.828] Browser LOG     true
+[127:13:48.828] Browser LOG     true
+[127:13:54.384] Server  LOG     true
+[127:13:54.400] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:13:54.779] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[127:13:54.891] Browser LOG     true
+[127:13:54.891] Browser LOG     true
+[127:14:03.953] Server  LOG     true
+[127:14:03.963] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:14:04.297] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[127:14:04.417] Browser LOG     true
+[127:14:04.417] Browser LOG     true
+[127:14:08.131] Server  LOG     true
+[127:14:08.140] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:14:08.460] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[127:14:08.592] Browser LOG     true
+[127:14:08.592] Browser LOG     true
+[127:14:08.733] Browser WARN    Image with src "/_next/static/media/heart-icon.98014e5c.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[127:14:38.345] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:14:39.338] Browser LOG     true
+[127:14:39.338] Browser LOG     true
+[127:14:45.470] Server  LOG     true
+[127:14:45.483] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:14:45.761] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[127:14:45.926] Browser LOG     true
+[127:14:45.926] Browser LOG     true
+[127:14:45.926] Browser WARN    Image with src "/_next/static/media/heart-icon.98014e5c.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[127:14:54.680] Server  LOG     true
+[127:14:54.688] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:14:55.032] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[127:14:55.149] Browser LOG     true
+[127:14:55.149] Browser LOG     true
+[127:14:55.291] Browser WARN    Image with src "/_next/static/media/heart-icon.98014e5c.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[127:16:33.732] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:16:33.898] Browser LOG     true
+[127:16:33.898] Browser LOG     true
+[127:17:01.914] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:17:02.041] Browser LOG     true
+[127:17:02.041] Browser LOG     true
+[127:17:15.657] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:17:15.814] Browser LOG     true
+[127:17:15.815] Browser LOG     true
+[127:18:14.448] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:18:14.621] Browser LOG     true
+[127:18:14.621] Browser LOG     true
+[127:18:22.408] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:18:22.579] Browser LOG     true
+[127:18:22.579] Browser LOG     true
+[127:18:22.579] Browser LOG     true
+[127:18:22.579] Browser LOG     true
+[127:18:34.966] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:18:35.097] Browser LOG     true
+[127:18:35.097] Browser LOG     true
+[127:18:44.247] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:18:44.382] Browser LOG     true
+[127:18:44.382] Browser LOG     true
+[127:19:04.460] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:19:04.623] Browser LOG     true
+[127:19:04.623] Browser LOG     true
+[127:19:04.623] Browser LOG     true
+[127:19:04.623] Browser LOG     true
+[127:19:27.907] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:19:28.037] Browser LOG     true
+[127:19:28.037] Browser LOG     true
+[127:19:38.605] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:19:38.753] Browser LOG     true
+[127:19:38.753] Browser LOG     true
+[127:19:44.181] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:19:44.309] Browser LOG     true
+[127:19:44.309] Browser LOG     true
+[127:19:54.051] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:19:54.177] Browser LOG     true
+[127:19:54.177] Browser LOG     true
+[127:20:02.278] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:20:02.407] Browser LOG     true
+[127:20:02.407] Browser LOG     true
+[127:20:33.309] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:20:33.433] Browser LOG     true
+[127:20:33.434] Browser LOG     true
+[127:21:10.546] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:21:10.695] Browser LOG     true
+[127:21:10.695] Browser LOG     true
+[127:21:30.283] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:21:30.444] Browser LOG     true
+[127:21:30.444] Browser LOG     true
+[127:21:43.424] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:21:43.554] Browser LOG     true
+[127:21:43.554] Browser LOG     true
+[127:21:57.526] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:21:57.654] Browser LOG     true
+[127:21:57.654] Browser LOG     true
+[127:22:03.248] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:22:03.381] Browser LOG     true
+[127:22:03.381] Browser LOG     true
+[127:22:20.984] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:22:21.151] Browser LOG     true
+[127:22:21.151] Browser LOG     true
+[127:22:21.151] Browser LOG     true
+[127:22:21.151] Browser LOG     true
+[127:22:37.888] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:22:38.018] Browser LOG     true
+[127:22:38.018] Browser LOG     true
+[127:22:47.703] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:22:47.872] Browser LOG     true
+[127:22:47.873] Browser LOG     true
+[127:22:47.873] Browser LOG     true
+[127:22:47.873] Browser LOG     true
+[127:22:57.147] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:22:57.275] Browser LOG     true
+[127:22:57.275] Browser LOG     true
+[127:22:59.771] Browser LOG     true
+[127:22:59.771] Browser LOG     true
+[127:23:07.769] Server  LOG     true
+[127:23:07.783] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:23:08.057] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[127:23:08.239] Browser LOG     true
+[127:23:08.239] Browser LOG     true
+[127:23:08.239] Browser WARN    Image with src "/_next/static/media/heart-icon.98014e5c.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[127:32:49.600] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:32:50.338] Browser LOG     true
+[127:32:50.338] Browser LOG     true
+[127:32:52.620] Server  LOG     true
+[127:32:52.643] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:32:52.935] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[127:32:52.935] Browser LOG     true
+[127:32:52.935] Browser LOG     true
+[127:32:53.113] Browser WARN    Image with src "/_next/static/media/heart-icon.98014e5c.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[127:33:16.517] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:33:16.645] Browser LOG     true
+[127:33:16.645] Browser LOG     true
+[127:33:34.933] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:33:35.332] Browser LOG     true
+[127:33:35.332] Browser LOG     true
+[127:35:47.051] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:35:47.331] Browser LOG     true
+[127:35:47.331] Browser LOG     true
+[127:35:57.002] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:35:57.331] Browser LOG     true
+[127:35:57.331] Browser LOG     true
+[127:36:00.244] Server  LOG     true
+[127:36:00.257] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:36:00.541] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[127:36:00.747] Browser LOG     true
+[127:36:00.747] Browser LOG     true
+[127:36:00.747] Browser WARN    Image with src "/_next/static/media/heart-icon.98014e5c.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[127:36:51.946] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:36:52.332] Browser LOG     true
+[127:36:52.332] Browser LOG     true
+[127:37:32.170] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:37:32.305] Browser LOG     true
+[127:37:32.305] Browser LOG     true
+[127:37:38.460] Server  ERROR   Each child in a list should have a unique "key" prop. See https://react.dev/link/warning-keys for more information.
+[127:37:38.638] Browser LOG     true
+[127:37:38.638] Browser LOG     true
+[127:37:38.638] Browser LOG     true
+[127:37:38.638] Browser LOG     true

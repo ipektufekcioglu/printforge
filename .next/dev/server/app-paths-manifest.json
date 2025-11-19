@@ -1,4 +1,5 @@
 {
+  "/3d-models/[id]/page": "app/3d-models/[id]/page.js",
   "/3d-models/categories/[categoryName]/page": "app/3d-models/categories/[categoryName]/page.js",
   "/3d-models/page": "app/3d-models/page.js",
   "/page": "app/page.js"
